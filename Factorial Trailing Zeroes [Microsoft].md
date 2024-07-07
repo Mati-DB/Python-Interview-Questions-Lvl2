@@ -9,7 +9,11 @@ Please note that all the information regarding the case study has been sourced f
 ***
 
 ## Interview Question
-Let's write a function that returns the number of trailing zeroes in n!.
+Before, you work on this question, make sure you've solved the easier warmup problem [Factorial Formula](https://github.com/Mati-DB/Python-Interview-Questions/blob/main/Factorial%20Function%20%5BMicrosoft%5D.md), where you need to write a function to compute 𝑛 factorial as follows:
+
+𝑛! = 𝑛 ∗ (𝑛−1) ∗ (𝑛−2) ∗ ... * 2 ∗ 1.
+
+Now that you know the factorial formula, let's write a function that returns the number of trailing zeroes in n!.
 
 For example, for 5!, we'd return 1, because 5! = 5 ∗ 4 ∗ 3 ∗ 2 ∗ 1 = 120 and 120 has exactly 1 trailing zero.
 
